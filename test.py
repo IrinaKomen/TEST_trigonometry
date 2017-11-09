@@ -1,6 +1,9 @@
 print("Hoi wereld")
 
-def function(x):
-	y=x**2
-	return y
+import numpy as np
+
+def circumference(radius):
+	circumference=2*np.pi*radius
+	return circumference
+
 
